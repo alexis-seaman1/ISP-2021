@@ -4,6 +4,7 @@
 
 <template>
   <div>
+    <router-view></router-view>
     <v-container
       v-for="align in alignments"
       :key="align"
